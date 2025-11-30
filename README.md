@@ -46,39 +46,39 @@ The dataset was checked for missing values and cleaned accordingly. Numerical fe
 
 ## Methodology
 1. Data Preprocessing
-Loaded the dataset using pandas
-Replaced missing values with mean
-Separated features (X) and target (y)
-Scaled the numeric features using StandardScaler
-Split data into 80% training and 20% testing
+-> Loaded the dataset using pandas
+-> Replaced missing values with mean
+-> Separated features (X) and target (y)
+-> Scaled the numeric features using StandardScaler
+-> Split data into 80% training and 20% testing
 
 2. Model Training
-Trained four ML models:
-Logistic Regression
-Decision Tree Classification
-Random Forest Classification
-Neural Network (MLPClassifier)
+-> Trained four ML models:
+    >> Logistic Regression
+    >> Decision Tree Classification
+    >> Random Forest Classification
+    >> Neural Network (MLPClassifier)
 
 3. Predictions
-Each model predicted heart disease outcomes on the test dataset.
+-> Each model predicted heart disease outcomes on the test dataset.
 
 4. Model Evaluation
-Evaluated the models using:
-Accuracy
-Precision
-Recall
-F1 Score
-ROC-AUC
-Classification Report
-Confusion Matrix plots for all models
+-> Evaluated the models using:
+        >> Accuracy
+        >> Precision
+        >> Recall
+        >> F1 Score
+        >> ROC-AUC
+        >> Classification Report
+        >> Confusion Matrix plots for all models
 
 ## Results
-The models achieved the following performance:
-Model	Accuracy
-    >> Logistic Regression	0.7869
-    >> Decision Tree	0.7049
-    >> Random Forest	0.8196
-    >> Neural Network (MLP)	0.7869
+* The models achieved the following performance:
+* Model -- Accuracy
+    >> Logistic Regression   -- 0.7869
+    >> Decision Tree         -- 0.7049
+    >> Random Forest         -- 0.8196
+    >> Neural Network (MLP)  -- 0.7869
 Key Findings
   -> Random Forest achieved the highest accuracy (81.96%), making it the best-performing model.
   -> Logistic Regression and Neural Network tied with 78.69% accuracy.
@@ -91,12 +91,11 @@ Key Findings
       * ST slope (slope)
       
 ## Tools and Technologies
-  Python
-  Libraries:
-      pandas, numpy
-      seaborn, matplotlib
-      scikit-learn
-      joblib (for saving the Random Forest model)
+  * Python
+  * Libraries:
+      >> pandas, numpy
+      >> seaborn, matplotlib
+      >> scikit-learn
 
 ## Key Outcomes
 -> Successfully developed and evaluated multiple ML models for heart disease prediction.
@@ -104,3 +103,7 @@ Key Findings
 -> Random Forest model exported as random_forest_model.pkl for future deployment.
 -> Provides a foundation for medical decision-support and early risk analysis systems.
 
+## Author
+Name: Thotakura Anudeepthi 
+Project: Artificial Intelligence Major Project 
+Institution: KL UNIVERSITY
