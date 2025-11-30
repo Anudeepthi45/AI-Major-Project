@@ -1,0 +1,6 @@
+--> Each confusion matrix shows how well models classify:
+      >> True Positives (TP): correctly predicted heart disease
+      >> True Negatives (TN): correctly predicted no heart disease
+      >> False Positives (FP): predicted disease but patient is healthy
+      >> False Negatives (FN): predicted healthy but patient has disease
+--> Random Forest confusion matrix shows the highest TP and TN values, indicating superior performance.
