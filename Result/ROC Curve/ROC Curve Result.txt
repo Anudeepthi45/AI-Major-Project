@@ -1,0 +1,3 @@
+>> Random Forest ROC curve is the highest, showing the best discrimination power.
+>> Logistic Regression & Neural Network also show good ROC curves, close to each other.
+>> Decision Tree ROC is the least smooth and lowest, indicating weaker predictive ability.
