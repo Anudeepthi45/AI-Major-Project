@@ -1,0 +1,51 @@
+_> This is performance of all four machine-learning models used for Heart Disease Prediction. 
+-> The evaluation is based on Accuracy, Precision, Recall, F1-Score, and visual analysis through Confusion Matrix and ROC-AUC curves.
+== Model Performance Summary ==
+        Model	- Accuracy
+          Logistic Regression  -	0.7869
+          Decision Tree	       - 0.7049
+          Random Forest	       - 0.8197
+          Neural Network (MLP) -	0.7869
+    -> Random Forest achieved the best accuracy: 81.96%
+
+== Detailed Metrics ==
+>> Logistic Regression
+    Accuracy: 0.7868
+    Precision: 0.7631
+    Recall: 0.8787
+    F1-Score: 0.8169
+    ROC-AUC: 0.7786
+Interpretation:
+* The model is good at identifying patients with heart disease (high recall). Balanced performance but slightly lower accuracy than Random Forest.
+
+>> Decision Tree
+    Accuracy: 0.7049
+    Precision: 0.7027
+    Recall: 0.7878
+    F1-Score: 0.7428
+    ROC-AUC: 0.6975
+Interpretation:
+* Decision Tree tends to overfit and gives the lowest accuracy and AUC among all models.
+
+>> Random Forest
+    Accuracy: 0.8196
+    Precision: 0.7619
+    Recall: 0.9696
+    F1-Score: 0.8533
+    ROC-AUC: 0.8062
+Interpretation:
+* Random Forest performs the best, capturing almost all positive heart disease cases (very high recall). Shows strong generalization.
+
+>> Neural Network (MLPClassifier)
+    Accuracy: 0.7868
+    Precision: 0.7941
+    Recall: 0.8181
+    F1-Score: 0.8059
+    ROC-AUC: 0.7840
+Interpretation:
+* Neural Network gives stable performance, similar to Logistic Regression.
+
+== Final Conclusion ==
+  -> Among all models, Random Forest provides the best performance for heart disease prediction with the highest accuracy, recall, and ROC-AUC score. 
+  -> Logistic Regression and Neural Network also achieve strong and consistent performance. 
+  -> Decision Tree performs the worst due to overfitting.
