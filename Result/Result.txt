@@ -2,10 +2,10 @@ _> This is performance of all four machine-learning models used for Heart Diseas
 -> The evaluation is based on Accuracy, Precision, Recall, F1-Score, and visual analysis through Confusion Matrix and ROC-AUC curves.
 == Model Performance Summary ==
         Model	- Accuracy
-          Logistic Regression  -	0.7869
+          Logistic Regression  - 0.7869
           Decision Tree	       - 0.7049
           Random Forest	       - 0.8197
-          Neural Network (MLP) -	0.7869
+          Neural Network (MLP) - 0.7869
     -> Random Forest achieved the best accuracy: 81.96%
 
 == Detailed Metrics ==
